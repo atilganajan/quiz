@@ -17,7 +17,7 @@
                     </x-jet-nav-link>
                 </div>
             </div>
-            
+
             <div class="hidden sm:flex sm:items-center sm:ml-6">
 
                 <!-- Teams Dropdown -->
@@ -39,7 +39,7 @@
                                     </button>
 
                                 </span>
-                                
+
                             </x-slot>
 
                             <x-slot name="content">
@@ -108,6 +108,17 @@
                         </x-slot>
 
                         <x-slot name="content">
+
+                            @if (auth()->user()->type == 'admin')
+                            <div class="block px-4 py-2 text-xs text-gray-400">
+                                Admin İşlemleri
+                            </div>
+
+                            <x-jet-dropdown-link href="{{ route('quizzes.index') }}">
+                                Quizler
+                            </x-jet-dropdown-link>
+                            @endif
+
                             <!-- Account Management -->
                             <div class="block px-4 py-2 text-xs text-gray-400">
                                 {{ __('Manage Account') }}
@@ -238,5 +249,3 @@
 </nav>
 
 <div>
-
-

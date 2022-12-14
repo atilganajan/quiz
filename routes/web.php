@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\QuizController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,7 +26,5 @@ Route::middleware(['auth:sanctum',config('jetstream.auth_session'),'verified'])
 });
 
 Route::group(["middleware" => ["auth", "isAdmin"],"prefix" => "admin"], function () {
-    Route::get("/", function () {
-        return "asadasd";
-    });
+ Route::resource("quizzes",QuizController::class);
 });
