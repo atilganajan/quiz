@@ -1,33 +1,30 @@
 <?php
 
 namespace Database\Factories;
+use App\Models\Result;
 
-use App\Models\Quiz;
-use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
  */
-class QuizFactory extends Factory
+class ResultFactory extends Factory
 {
-    /** 
-     * @var string
-     */
-    protected $model = Quiz::class;
-
     /**
      * Define the model's default state.
      *
      * @return array<string, mixed>
      */
+    protected $model = Result::class;
+
     public function definition()
     {
-        $title=$this->faker->sentence(rand(3,7));
         return [
-            "title"=>$title,
-            "slug"=>Str::slug($title),
-            "description"=>$this->faker->text(200),
+            "user_id"=>rand(1,10),
+            "quiz_id"=>rand(1,10),
+            "point"=>rand(0,100),
+            "correct"=>rand(1,20),
+            "wrong"=>rand(1,20)
         ];
     }
 }
