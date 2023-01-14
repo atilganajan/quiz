@@ -19,6 +19,7 @@ Laravel ile yazılmış full-stack bir e-ticaret sistemi.
 | Quiz durumu |   [Laravel](https://laravel.com/)    |
 | Puan Hesaplama | [Laravel](https://laravel.com/)    |
 | Expire date | [Carbon](https://laravel.com/docs/9.x/helpers#method-now)  |
+| Fotoğraf yükleme | [cloudinary](https://cloudinary.com/)  |
 | Style | [Bootstrap 5](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 ## Examples
 ![image](https://user-images.githubusercontent.com/84190481/212450602-93563cb1-d16e-4af4-97f3-8abdca8b7587.png)
