@@ -1,4 +1,4 @@
-# Teknotik
+# Quiz
 **Canlı Link:**
 
 Laravel ile yazılmış full-stack bir quiz uygulaması.
