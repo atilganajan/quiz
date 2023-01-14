@@ -1,7 +1,7 @@
 # Teknotik
 **Canlı Link:**
 
-Laravel ile yazılmış full-stack bir e-ticaret sistemi.
+Laravel ile yazılmış full-stack bir quiz uygulaması.
 
 ## Tech Stack
 **Backend**: [Laravel](https://laravel.com/)
