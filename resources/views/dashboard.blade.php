@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">Anasayfa</x-slot>
-
+asdasdads
     <div class="row">
         <div class="col-md-8">
             <div class="list-group">
