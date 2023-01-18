@@ -14,7 +14,7 @@
                     <textarea name="description" class="form-control" rows="4">{{ $quiz->description }}</textarea>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group">dasdas
                     <label>Quiz Durumu</label>
                     <select name="status" class="form-control">
                         <option @if ($quiz->questions_count < 4) disabled @endif
