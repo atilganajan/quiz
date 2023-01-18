@@ -15,7 +15,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label>Quiz Durumu</label>
+                    <label>Quiz Durumu asdas</label>
                     <select name="status" class="form-control">
                         <option @if ($quiz->questions_count < 4) disabled @endif
                             @if ($quiz->status === 'publish') selected @endif value="publish">Aktif</option>

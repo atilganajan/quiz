@@ -19,7 +19,7 @@
 
                         @if ($quiz->finished_at)
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                Son Katılım Tarihi
+                                Son Katılım Tarihi dsffdsf
                                 <span title="{{ $quiz->finished_at }}"
                                     class="badge bg-secondary rounded-pill">{{ $quiz->finished_at->diffForHumans() }}</span>
                             </li>
