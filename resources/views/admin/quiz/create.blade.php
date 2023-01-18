@@ -17,7 +17,7 @@
                     <label class="my-2">Quiz Bitiş Tarihi Olacak mı?</label>
                 </div>
                 <div class="form-group " id="quizTime" style="display: none">
-                    <label class="my-2">Quiz Bitiş Tarihi</label>
+                    <label class="my-2">Quiz Bitiş Tarihi dddaf</label>
                     <input type="datetime-local" name="finished_at" id="date" class="form-control"
                         value="{{ old('finished_at') }}">
                 </div>

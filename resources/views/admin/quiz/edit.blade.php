@@ -6,7 +6,7 @@
                 @csrf
                 @method('PUT')
                 <div class="form-group">
-                    <label class="mb-2">Quiz Başlığı</label>
+                    <label class="mb-2">Quiz Sahibi</label>
                     <input type="text" name="title" class="form-control" value="{{ $quiz->title }}">
                 </div>
                 <div class="form-group">
@@ -15,7 +15,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label>Quiz Durumu</label>
+                    <label>Quiz Durumu asdas12312313</label>
                     <select name="status" class="form-control">
                         <option @if ($quiz->questions_count < 4) disabled @endif
                             @if ($quiz->status === 'publish') selected @endif value="publish">Aktif</option>
